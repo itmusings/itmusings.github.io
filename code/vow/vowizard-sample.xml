@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tns:vos xmlns:tns="http://itmusings.com/vow_0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://itmusings.com/vow_0.1 xmlvoconfigurator.xsd">
+	
+	<!-- 
+	 Filter stacks are defined so that we don't need to re-define the same list of filters
+	 in multiple places. The default filter stack (whose defaultStack attribute is true) is 
+	 by default added to all of the value objects. 
+	 The value object can do one of two things:
+	 1. It can set filterStackId to an alternate stack so that the alternate stack would be used
+	    instead of the default filter stack.
+	 2. It can veto against the usage of any filter stack by setting filterStackId to __NONE__. 
+	  Individual VO definitions also have the ability to specify additional filters which must
+	  be added over and above what is supplied by the filter stack. 
+	  Additional filters can be added "before" or "after" the filter stack by defining them under
+	  pre/filter or post/filter as illustrated below.
+	 -->
+	<filter-stack id='defaultFilterStack' defaultStack='true'>
+		<filter id='l1cache' name='l1cache' />	
+	</filter-stack>
+	
+	<!--  
+	 Define the value objects. 
+	 Each value object attaches itself to a scope directly or indirectly.
+	 It can attach itself directly by specifying the scope subclass
+	 It can do so indirectly by attaching itself to a parent which in turn may attach 
+	 itself to a scope. parent-child relationships can span to arbitrary depth.
+	 The action class is responsible for materializing the value object.
+	 The filters are responsible for doing work after materializing the value object.
+	 -->
+
+	<vo id="account" 
+		className="com.itmusings.vow.impl.Account">
+		<parent property="\${id}">accountMap</parent>
+		<post>
+			<filter id='cachedCommand' name='cachedCommand'>
+				<attributes timeToLiveInSeconds="2" timeToIdleInSeconds="2" cacheName="voCache"/>
+			</filter>
+		</post>
+		<action name="com.itmusings.vow.impl.AccountAction">
+			<attributes />
+		</action>
+	</vo>
+	
+	<vo id='accountMap' className='java.util.HashMap' >
+		<parent property="accountMap">customer</parent>
+	</vo>
+	
+	<vo id='customer' className="com.itmusings.vow.impl.Customer">
+		<scope>request</scope>
+	</vo>
+	
+</tns:vos>
