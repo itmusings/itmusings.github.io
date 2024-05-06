@@ -11,7 +11,7 @@ status: publish
 layout: post
 category: code
 home_page: false
-image: /images/
+image: /images/spring-auto-wiring.jpeg
 ---
 
 

@@ -12,8 +12,6 @@ image: /images/uploads/2008/02/caching-flow.png
 home_page: false
 ---
 
-# Caching - stuff you have always wanted to know but were afraid to ask
-
 I was having a recent chat about caching with someone. It was interesting enough for me to reflect on and add to my ruminations here in this blog. 
 
 ### The Basic Idea
