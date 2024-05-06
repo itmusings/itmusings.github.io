@@ -45,6 +45,7 @@ layout: main
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
         {% for post in posts offset: offset %}
+            {% if post.title != featured.title %}
             <article class="box-item">
                 <span class="category">
                     <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ post.category }}">
@@ -95,6 +96,7 @@ layout: main
                     </div>
                 </div>
             </article>
+            {% endif %}
         {% endfor %}
     </section>
     <!-- Pagination -->
