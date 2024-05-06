@@ -12,6 +12,10 @@ layout: post
 category: agility
 image: /images/ramp-up.jpg
 home_page: true
+tags:
+  - agility
+  - ramp-up
+  - team
 ---
 
 As I think back about all the failed projects that I had seen, I recognize one unifying feature about them. They all took too long to ramp up! I am not saying that they did not spend enough time on design or architecture. On the other hand, many of these failed projects spent an inordinate time weighing on alternatives, designing, documenting, estimating the effort and the like. But they failed to recognize one little truth. All the effort expended here is fruitless without code! It is just, as one of my colleagues puts it, "intellectual masturbation" at this point in time.

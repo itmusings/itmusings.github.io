@@ -12,28 +12,25 @@ layout: post
 image: /images/2015/06/alice.jpeg
 front_page: true
 category: musings
+tags: 
+  - musings
+  - architecture
+  - glass
+  - commerce
+  - content
 ---
 
-<!--“Why it is simply impassible!
 
-Alice: Why, don’t you mean impossible?
-
-Door: No, I do mean impassible. (chuckles) Nothing’s impossible!”
-
-  - Lewis Carroll, Alice’s adventures in Wonderland and Through the looking glass-->
-
-# What Lewis Carroll can teach us about Web Architecture
-
-> _“Why it is simply impassible! _
+> “Why it is simply impassible?
 > 
-> _Alice: Why, don__’__t you mean impossible?_
+> Alice: Why, don’t you mean impossible?_
 > 
-> _Door: No, I do mean impassible. (chuckles) Nothing’s impossible!”_
+> Door: No, I do mean impassible. (chuckles) Nothing’s impossible!”
 > 
-> _ - Lewis Carroll, Alice’s adventures in Wonderland and Through the looking __glass_
+>   - Lewis Carroll, Alice’s adventures in Wonderland and Through the looking glass
 
 
-As enterprises evolve, multiple portals emerge to facilitate interactions with the end consumer. So before we can say Enterprise Architecture, we would already have a marketing site, a commerce site, a support portal  etc. All of these either become sub domains or individual domains in their own right. The consumer is befuddled by these myriad web sites with their own associated styles, fonts, branding and not to forget their own login identities. It is a no brainer that these sites need to share credentials and must support single sign on. So if we have to visualize the consumer's entry to the enterprise, it may look a little like this:
+As enterprises evolve, multiple portals emerge to facilitate interactions with the end consumer. So before we can say Enterprise Architecture, we would already have a marketing site, a commerce site, a support portal etc. All of these either become sub domains or individual domains in their own right. The consumer is befuddled by these myriad web sites with their own associated styles, fonts, branding and not to forget their own login identities. It is a no brainer that these sites need to share credentials and must support single sign on. So if we have to visualize the consumer's entry to the enterprise, it may look a little like this:
 
 ## THE SSO DOOR
 

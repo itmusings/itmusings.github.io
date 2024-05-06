@@ -11,6 +11,10 @@ layout: post
 image: /images/2011/07/stomach.jpg
 home_page: false
 category: code
+tags:
+  - XML
+  - code
+  - java
 ---
 
 One of the earliest uses of XML was for the purpose of storing configuration. It was soon realized that XML constructs are more amenable for specifying nested configurations rather than properties or INI files that were hitherto used for the same purpose. Since I am a confessed frame-workaholic (a term I just coined to denote a person who has a penchant for writing frameworks at the drop of a hat) , I have always been using XML forever to specify configuration for my frameworks.

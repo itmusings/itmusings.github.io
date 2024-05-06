@@ -12,6 +12,10 @@ layout: post
 category: code
 home_page: false
 image: /images/2008/02/slaprocess.png
+tags:
+  - code
+  - kpi
+  - java
 ---
 
 

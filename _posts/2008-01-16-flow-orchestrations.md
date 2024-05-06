@@ -7,9 +7,15 @@ date: 2008-01-16 18:19:27
 post_name: flow-orchestrations
 status: publish
 layout: post
-category: architecture
+category: design
 image: /images/orchestration.jpg
 home_page: true
+tags:
+  - design
+  - architecture
+  - orchestration
+  - flow
+  - workflow
 ---
 ## BACKGROUND
 

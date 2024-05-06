@@ -12,6 +12,10 @@ layout: post
 category: code
 home_page: false
 image: /images/spring-auto-wiring.jpeg
+tags:
+  - spring
+  - code
+  - testing
 ---
 
 

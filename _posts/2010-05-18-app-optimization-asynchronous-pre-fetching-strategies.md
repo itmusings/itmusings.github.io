@@ -11,6 +11,11 @@ layout: post
 category: performance
 home_page: false
 image: /images/unprepared.jpg
+tags:
+  - pre-fetching
+  - performance
+  - optimization
+  - caching
 ---
 
 I remember perusing through an article on web services some time ago where the author quips about the similarity between web services and teen sexuality. He said that in both cases, they talk more about it rather than do it and even if they do it they do it pretty bad. A similar comparison can be drawn with pre-fetching.

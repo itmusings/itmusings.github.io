@@ -8,8 +8,12 @@ created: 2008-02-03 04:41:59
 comment_status: open
 post_name: caching-stuff-you-have-always-wanted-to-know-but-were-afraid-to-ask
 layout: post
-image: /images/uploads/2008/02/caching-flow.png
+image: /images/2008/02/caching-flow.png
 home_page: false
+tags:
+  - cache
+  - architecture
+  - performance
 ---
 
 I was having a recent chat about caching with someone. It was interesting enough for me to reflect on and add to my ruminations here in this blog. 
@@ -61,4 +65,4 @@ The use of caching, like any software strategy, tends to become a tight rope wal
   * Caching for data that changes frequently can only be non stale if all updates to the data go through the caching layer.
 The second point above is interesting. If all the access to the data is accomplished thru the cache, then the cache would automatically be non stale. Hence isn't it sensible to keep the cache as close as possible to the source of the data? The answer is a little moot because the whole point of caching is to optimize on the operation. Often the most expensive part of invoking an operation is the network overhead of making this call. If we want to avoid the network overhead, it makes sense to cache the data as close as possible to the consumer of the data and not the producer of the data. Reconciling these two apparently contradictory requirements constitutes an important step in optimizing the cache. 
 
-Tags: [cache](http://technorati.com/tag/cache), [architecture](http://technorati.com/tag/architecture)
+

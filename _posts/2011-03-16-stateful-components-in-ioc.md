@@ -12,6 +12,10 @@ layout: post
 category: design
 image: /images/lookup.jpg
 home_page: false
+tags:
+  - design
+  - DI
+  - Stateful
 ---
 
 

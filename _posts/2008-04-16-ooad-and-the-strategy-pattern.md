@@ -12,6 +12,10 @@ layout: post
 category: design
 image: /images/strategy.jpeg
 home_page: true
+tags:
+  - design
+  - strategies
+  - ooad
 ---
 
 

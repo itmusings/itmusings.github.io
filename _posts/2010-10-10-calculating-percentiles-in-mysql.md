@@ -11,6 +11,10 @@ layout: post
 category: code
 image: /images/90thpercentile.png
 home_page: false
+tags:
+  - sql
+  - code
+  - performance
 ---
 
 

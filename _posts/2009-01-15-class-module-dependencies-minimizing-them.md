@@ -12,6 +12,10 @@ layout: post
 category: design
 image: /images/NoDependency.png
 home_page: false
+tags:
+  - modularization
+  - design
+  - dependencies
 ---
 They say that "no man is an island". This is more applicable to class design. Without dependencies, we are not writing any cohesive applications. With too many dependencies we have a mess. 
 

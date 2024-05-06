@@ -12,6 +12,11 @@ layout: post
 category: design
 image: /images/static.png
 home_page: false
+tags:
+  - design
+  - static-method
+  - class-design
+  - code
 ---
 The keyword static possibly started as the first attempt at encapsulation. C Programs consisted of functions that spanned across multiple files. However, the programmers wanted some of these functions to be "private" within the file that they were contained in. The static keyword provided that small veneer of privacy. When java and other derived languages came in, the static was still continued. But this time it was used to signify that the variable or the method was static across instances of a class. We also started seeing a significant number of static "utility" libraries. Browse through any project and you would find "StringUtils", "XmlUtils" and the like. Soon, static methods were mentally equated to any kind of "helper" methods. This resulted in a lot of people using this artifice in places that it should not be used.  This post talks about static methods and why IMO I consider these as evil.
 

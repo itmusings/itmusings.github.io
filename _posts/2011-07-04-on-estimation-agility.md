@@ -12,6 +12,10 @@ layout: post
 home_page: false
 image: /images/agile-estimation.png
 category: agility
+tags:
+  - agility
+  - estimation
+  - planning
 ---
 
 

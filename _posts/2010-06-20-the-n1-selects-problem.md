@@ -12,6 +12,11 @@ layout: post
 image: /images/nof1.png
 category: performance
 home_page: true
+tags:
+  - performance
+  - O(n)
+  - architecture
+  - design
 ---
 
 

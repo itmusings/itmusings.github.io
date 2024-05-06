@@ -9,9 +9,13 @@ comment_status: open
 post_name: on-program-contracts
 status: publish
 layout: post
-category: code
+category: design
 image: /images/2010/03/interface_modules1-300x198.png
 home_page: false
+tags:
+  - design
+  - api
+  - interface-based-design
 ---
 
 

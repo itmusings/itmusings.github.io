@@ -12,6 +12,10 @@ home_page: false
 category: code
 image: /images/saas_graphic.png
 home_page: false
+tags:
+  - saas
+  - sql
+  - code
 ---
 
 

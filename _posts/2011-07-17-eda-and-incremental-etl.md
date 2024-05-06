@@ -12,6 +12,12 @@ layout: post
 category: architecture
 image: /images/etl.jpg
 home_page: false
+tags:
+  - event_driven
+  - EDA
+  - ETL
+  - architecture
+  - event_sourcing
 ---
 
 Event Driven Architecture (EDA) is a paradigm that I became familiar with when I was coding the earliest GUI components. The user interaction with a GUI application is modeled as a series of events that the application responds to. There is an "infinite loop" of events which can potentially be engendered by user interactions with a graphical application. The user responds to an application by potentially typing on the keyboard, clicking on certain segments of a GUI (such as a button for instance) with his mouse, hovering over certain regions etc. Individual GUI components respond to these events as they deem fit and perform various actions. Each c0mponent took charge of maintaining its own events and was able to invoke common services in response to them.

@@ -12,6 +12,10 @@ layout: post
 image: /images/2014/04/microservices-300x218.png
 category: architecture
 home_page: true
+tags:
+  - architecture
+  - micro_services
+  - soa
 ---
 
 

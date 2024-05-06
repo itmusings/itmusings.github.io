@@ -10,6 +10,10 @@ layout: post
 image: /images/2010/04/web-buckled.jpg
 category: performance
 home_page: false
+tags:
+  - performance
+  - browser
+  - web
 ---
 
 

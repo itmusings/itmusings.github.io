@@ -9,9 +9,13 @@ comment_status: open
 post_name: refactoring-evolutionary-design-yagni
 status: publish
 layout: post
-category: design 
+category: agility
 image: /images/yagni.jpg
 home_page: true
+tags:
+  - agility
+  - refactoring
+  - design
 ---
 
 

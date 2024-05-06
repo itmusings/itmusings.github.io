@@ -12,6 +12,11 @@ layout: post
 category: code
 home_page: true
 image: /images/fnf.png
+tags:
+  - code
+  - asynchronous
+  - java
+  - design
 ---
 
 

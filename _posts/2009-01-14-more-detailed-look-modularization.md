@@ -12,6 +12,10 @@ layout: post
 image: /images/modularization.jpg
 home_page: false
 category: architecture
+tags:
+  - architecture
+  - modularization
+  - design
 ---
 
 Any big application typically has a lot of functionality. It is logical that such a large amount of functionality be distributed across modules with each module becoming a specialist in implementing a given set of functionalities. This thought process has of course been crystalized as the single responsibility principle (SRP) that I have alluded to before in other posts in this blog.  These modules get integrated to form the entire product end to end. The module structure for involved products can get very complex with an intricate set of dependency chains that link one module to another. For instance, let us assume that we have a simple product that takes care of managing savings bank accounts. To implement the functionality of the application, let us say we have two modules customer profile and savings. The customer profile module takes care of setting up customer profiles while the savings module provides the savings bank account functionality. Indeed, it is by colloboration of these two modules that the functionality of the application is implemented.   Modules must exhibit a high level of cohesion that should co-exist with a well defined set of dependencies. These dependencies take care of establishing well defined points of coupling between this module and other modules. 

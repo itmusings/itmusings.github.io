@@ -10,7 +10,9 @@ status: publish
 layout: post
 category: architecture
 tags:
-  - AOP
+  - aop
+  - architecture
+  - spring
 image: /images/aop.png
 home_page: true
 ---

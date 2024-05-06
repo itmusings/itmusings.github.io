@@ -12,6 +12,12 @@ layout: post
 image: /images/2016/09/Camel-Routes-300x161.png
 category: architecture
 home_page: false
+tags:
+  - camel
+  - esb
+  - service_bus
+  - architecture
+  - micro_services
 ---
 
 

@@ -11,6 +11,9 @@ layout: post
 home_page: false
 category: management
 image: /images/project-automation.jpeg
+tags:
+  - automation
+  - management
 ---
 
 

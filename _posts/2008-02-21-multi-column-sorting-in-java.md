@@ -11,6 +11,9 @@ layout: post
 category: code
 image: /images/sorting.png
 home_page: true
+tags:
+  - code
+  - sorting
 ---
 
 [Link to code.](/code/sorting) Java provides a reasonable API for sorting. The Collections.sort() static method which has been modelled from C++ STL caters to a decent cross-section of sorting requirements. This accepts a list of objects and sorts them. To summarize what is provided by the sorting API in java, there are two variants of the sort static method of the Collections class. 

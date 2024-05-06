@@ -12,6 +12,10 @@ layout: post
 category: agility
 home_page: true
 image: /images/technical-debt.jpg
+tags:
+  - agility
+  - tech_debt
+  - refactoring
 ---
 
 

@@ -12,6 +12,9 @@ layout: post
 image: /images/2010/02/NO-at-Heathrow-300x183.jpg
 category: management
 home_page: false
+tags:
+  - management
+  - musings
 ---
 
 

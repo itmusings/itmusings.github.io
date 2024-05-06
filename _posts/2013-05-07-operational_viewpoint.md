@@ -12,6 +12,11 @@ layout: post
 image: /images/2013/05/Ops.jpg
 home_page: true
 category: architecture
+tags:
+  - operations
+  - viewpoint
+  - architecture
+  - maintenance
 ---
 
 It is one of software’s little ironies that most architects would fervently wish to see their software run forever and yet fail to foresee how the system would be maintained after it goes LIVE.

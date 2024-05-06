@@ -12,6 +12,11 @@ layout: post
 image: /images/2010/04/bugs1.jpg
 category: musings
 home_page: true
+tags:
+  - musings
+  - pitfalls
+  - planning
+  - bugs
 ---
 
 

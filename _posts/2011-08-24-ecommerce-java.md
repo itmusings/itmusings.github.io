@@ -12,6 +12,8 @@ layout: post
 category: commerce
 image: /images/ecommerce.jpg
 home_page: false
+tags:
+  - commerce
 ---
 
 

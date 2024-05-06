@@ -12,6 +12,9 @@ layout: post
 category: architecture
 image: /images/
 home_page: false
+tags:
+  - architecture
+  - infrastructure
 ---
 
 

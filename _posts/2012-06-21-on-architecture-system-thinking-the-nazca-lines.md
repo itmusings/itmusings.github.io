@@ -12,6 +12,10 @@ layout: post
 image: /images/nazca-flight.jpg
 category: musings
 home_page: true
+tags:
+  - architecture
+  - nazca
+  - birdseye_view
 ---
 
 Legend has it that Bill Gates was the first self proclaimed software architect. Then the fad caught on and the rest is history. Everyone wants to now be part of this selective fraternity. So much so that it is hard to fling a brick in an IT unit without inflicting material harm to at least some person who goes around town proclaiming his membership to this esoteric club. It is hard to distinguish between the true cognoscenti and the dumb wannabes. But who is this person? What distinguishes the average Jo Developer from an architect?

@@ -10,9 +10,14 @@ comment_status: open
 post_name: patternsframeworks-specifications-conventions-configuration
 status: publish
 layout: post
+category: design
 image: /images/framework.jpeg
 home_page: true
-
+tags:
+  - design
+  - conventions
+  - configurations
+  - architecture
 ---
 
 

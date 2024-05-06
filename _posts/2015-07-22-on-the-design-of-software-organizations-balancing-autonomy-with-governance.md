@@ -12,6 +12,12 @@ layout: post
 category: management
 image: /images/governance1.jpg
 home_page: true
+tags:
+  - autonomy
+  - governance
+  - agility
+  - conways_law
+  - ddd
 ---
 
 <!--How organizational design has evolved over the years. How autonomy must be balanced with governance. -->

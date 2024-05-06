@@ -12,6 +12,10 @@ layout: post
 category: musings
 home_page: false
 image: /images/solar-heater.jpg
+tags:
+  - musings
+  - abstractions
+  - strategies
 ---
 I recently stayed at a hotel and suffered from what has become the ubiquitous problem of "no hot water". This time, the explanation was all about the solar water heater not functioning properly. This got me thinking about the impact of a bad design on a particular feature (in this case heating the water). I also realized that many design patterns would serve to alleviate this situation. The outcome of all these ruminations is the current blog entry. 
 

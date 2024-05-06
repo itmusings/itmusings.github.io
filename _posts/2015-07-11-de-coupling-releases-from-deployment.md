@@ -12,6 +12,12 @@ layout: post
 image: /images/2015/07/duckslinedup.jpeg
 category: architecture
 home_page: true
+tags:
+  - release_management
+  - development
+  - deployment
+  - devops
+  - business_release
 ---
 
 

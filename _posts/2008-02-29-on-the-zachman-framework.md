@@ -12,6 +12,9 @@ layout: post
 category: architecture
 home_page: true
 image: /images/zachframeinterface.png
+tags:
+  - architecture
+  - musings
 ---
 
 

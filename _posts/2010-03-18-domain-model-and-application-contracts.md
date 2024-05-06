@@ -12,6 +12,11 @@ layout: post
 image: /images/2010/03/interface_modules2-300x146.png
 category: design
 home_page: false
+tags:
+  - domain
+  - api
+  - contracts
+  - design
 ---
 
 

@@ -11,6 +11,10 @@ layout: post
 home_page: false
 image: /images/304.jpg
 category: performance
+tags:
+  - performance
+  - code-304
+  - caching
 ---
 
 

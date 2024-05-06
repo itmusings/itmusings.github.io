@@ -12,6 +12,8 @@ layout: post
 category: musings
 image: /images/organizing.jpg
 home_page: true
+tags:
+  - musings
 ---
 
 

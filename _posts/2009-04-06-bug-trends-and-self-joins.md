@@ -12,6 +12,11 @@ layout: post
 home_page: false
 category: code
 image: /images/sql.png
+tags:
+  - code
+  - sql
+  - bugs
+  - trends
 ---
 
 I was recently doing some interesting bug trends for one of the projects that I am managing. The idea was to track the bug burn rate of my developers and testers. I use a primitive tracking system that is capable of orchestrating a work flow between three statuses viz active, resolved and closed. Some one opens a bug and makes it active. This is then resolved and finally closed after verification. A person has the opportunity to re-activate the bug if necessary. The bug trends analysis took me to some interesting by-roads of SQL and prompted me to pen this blog. If you want to know about cross joins, left outer joins, self joins with preceding rows, with statement, select case etc. read on - else consider yourself warned!  We start off with a table called "bugs" that contains a bug ID, description, status,release, open date, resolved date and closed date along with a ton of other information which is irrelevant to this article. We had a second table called "all_dates" that just contained one date field called asOfDate. This contains multiple rows one for each date that is of interest to us. Since I was doing the analysis for dates between Feb 2 2009 to May 1 2009 , I had every date in this range in the table "dates". So there is a row for Feb 2 2009, one for Feb 3 2009 etc. till May 1 2009. To sumarize, here is the DDL.

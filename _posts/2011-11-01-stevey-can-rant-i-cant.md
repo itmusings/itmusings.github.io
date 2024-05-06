@@ -11,6 +11,11 @@ layout: post
 image: /images/2011/11/c1c6c-rant-warning-300x193.png
 category: musings
 home_page: true
+tags:
+  - service_orientation
+  - soa
+  - big_tech
+  - musings
 ---
 
 [Stevey's Rant](https://plus.google.com/112678702228711889851/posts/eVeouesvaVX) has been making the blogging rounds recently. Everyone and their aged and ailing mothers are talking about it including yours truly of course - not my mom though - with this post.  I like the rant of course along with the multitude. Who can resist reading contemptuous digs on Jeff Bezos or for that matter on Google or Microsoft? Not me.. Like most wanna be billionaires who has to be content with the measly dole that gets meted out to enterprise architects, I have always looked askance at these "rags to riches" guys with their perceived pomposity and apparent disdain for the people who work for them. At least it makes me feel good to contemplate possible nicks in their spiritual armor. Honestly,  I personally know too little about them to take a stand one way or the other. But isn't it remarkable that most technical heads of companies have been accused of the same thing i.e. they just cant seem to let go of the finer details. I guess that is the problem. It seems techies can't delegate well. And when you have strong opinions backed by an insatiable penchant to count the pixels it is harder.

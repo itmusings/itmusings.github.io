@@ -12,6 +12,8 @@ layout: post
 home_page: true
 image: /images/david-goliath.jpg
 category: musings
+tags:
+  - musings
 ---
 
 

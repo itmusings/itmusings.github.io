@@ -12,6 +12,10 @@ layout: post
 image: /images/detective.jpg
 home_page: false
 category: performance
+tags:
+  - performance
+  - design
+  - retrospective
 ---
 
 Application Performance and endurance tests are a terrible duo. They let a badly designed application fester unnoticed for a considerable amount of time. The development team languishes in the bliss provided by the lack of attention and gains confidence in its ability to slime the ailing application into production. And lo! in one sudden swipe of the blade, these two hack the application into a million pieces!

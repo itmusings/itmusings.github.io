@@ -10,6 +10,9 @@ layout: post
 category: musings
 image: /images/choices.jpg
 home_page: false
+tags:
+  - architecture
+  - musings
 ---
 
 

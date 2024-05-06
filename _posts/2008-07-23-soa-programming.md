@@ -12,6 +12,10 @@ layout: post
 image: /images/soa.png
 home_page: true
 category: architecture
+tags:
+  - architecture
+  - pattern
+  - soa
 ---
 
 

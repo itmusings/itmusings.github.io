@@ -12,6 +12,9 @@ layout: post
 category: architecture
 home_page: false
 image: /images/ea.jpeg
+tags:
+  - architecture
+  - enterprise
 ---
 
 

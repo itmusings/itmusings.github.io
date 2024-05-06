@@ -12,6 +12,11 @@ layout: post
 category: design
 image: /images/junction.jpg
 home_page: true
+tags:
+  - design
+  - code
+  - router
+  - patterns
 ---
 
 Browse through all the non integration pattern books and you would not find a Router mentioned. The Router pattern has been recognized as an excellent way to accomplish Enterprise Application Integration (EAI). But it is my contention that their role in application programming has not been sufficiently emphasized. This post seeks to introduce the reader to this exotic beast and lets them understand some of the amazing things that can be accomplished by keeping this pattern in mind. The Router, [IMNSHO](http://en.wiktionary.org/wiki/IMNSHO) is one of the most beautiful patterns. It can transform an application that is monolithic, non modular, non configurable among other bad things into a thing of beauty.  So much so, that the application almost becomes magical. Sounds pompous? Yes. But did this grab your attention at least? If it did, read on..  The router and a close relative called Chain are some of the most interesting patterns that I have run into in my course of developing complex applications. We will talk about chains another time but let us jump to the routers now. So what is a router? 

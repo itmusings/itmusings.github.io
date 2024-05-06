@@ -11,6 +11,11 @@ layout: post
 image: /images/framework.jpeg
 home_page: false
 category: architecture
+tags:
+  - architecture
+  - framework
+  - design
+  - patterns
 ---
 
 

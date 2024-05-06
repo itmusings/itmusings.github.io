@@ -9,8 +9,12 @@ comment_status: open
 post_name: java-performance
 status: publish
 layout: post
+category: performance
 image: /images/performance.jpg
 home_page: true
+tags:
+  - java
+  - performance
 ---
 
 I attended a **No Fluff Just Stuff** conference held at Newark,NJ in August 2006. This post is a condensation of what Brian Goetz mentioned in the course. One of the topics that was presented out there was about Java and performance. That seemed odd since Java is not usually mentioned when the topic of performance comes up. That is the time when the Java evangelist excuses himself (or herself) and takes a small break while the C/C++ advocates unleash their spiel. But all these (un)popular urban myths are getting falsified with the new JVMs that are coming up. The Java 1.5 VM is superior to its predecessors in many key respects. The new ones promise to be even better so much so that we should not be surprised if Java outperforms C++ in many respects.  We are going to examine the Java performance improvement over the years in the following areas: 
