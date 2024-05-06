@@ -8,6 +8,7 @@ tags:
   - architecture
   - software
   - code
+  - java
 show_hero: true
 menu:
   - title: Agility
@@ -26,6 +27,8 @@ menu:
     url: /category/musings
   - title: Performance
     url: /category/performance
+  - title: Tag Map
+    url: /tags
 email: raja@thekollurus.com
 # See: https://disqus.com/
 disqus_username: rajakolluru

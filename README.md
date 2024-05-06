@@ -1,1 +1,1 @@
-Jekflix Template customized for itmusings.com
+[Jekflix Template by Thiago Rossener](https://github.com/thiagorossener/jekflix-template/tree/master)customized for [itmusings.com](itmusings.com)
