@@ -20,7 +20,7 @@ tags:
 
 I remember perusing through an article on web services some time ago where the author quips about the similarity between web services and teen sexuality. He said that in both cases, they talk more about it rather than do it and even if they do it they do it pretty bad. A similar comparison can be drawn with pre-fetching.
 
-Pre-fetching is one of those things that sounds almost cliched in that everyone talks about it. But I have seldom seen good implementations.  How do we know what to pre-fetch? And when would be an appropriate time for that? Who owns the pre-fetching thread?  I recently embarked in an application optimization exercise. As part of that, I had identified some candidates for being pre-fetched. How I went about implementing pre-fetching forms the rest of this article.
+Pre-fetching is one of those things that sounds almost cliched in that everyone talks about it. But I have seldom seen good implementations. How do we know what to pre-fetch? And when would be an appropriate time for that? Who owns the pre-fetching thread? I recently embarked in an application optimization exercise. As part of that, I had identified some candidates for being pre-fetched. How I went about implementing pre-fetching forms the rest of this article.
 
 # A Pre-Fetching Use case
 
@@ -66,7 +66,7 @@ This sequence illustrates a _reactive strategy_ to caching wherein all the objec
 
 # Optimized Second Calls
 
-The caching example highlights a situation when a second call to a service is automatically optimized by virtue of the first call.  This is typically achieved because of caching as is discussed in this particular case. But it does not have to be restricted to caching. It can also happen in multiple other situations. Let us take an example of a "learning" querying service. It accepts a query and returns a result set based on the criteria passed in the query. However, the querying service can "learn" from the query by indexing the result set using the criteria passed so that if the same type of criteria are passed again, the query would perform much better. In this case too the second call would be more optimized than the first.
+The caching example highlights a situation when a second call to a service is automatically optimized by virtue of the first call. This is typically achieved because of caching as is discussed in this particular case. But it does not have to be restricted to caching. It can also happen in multiple other situations. Let us take an example of a "learning" querying service. It accepts a query and returns a result set based on the criteria passed in the query. However, the querying service can "learn" from the query by indexing the result set using the criteria passed so that if the same type of criteria are passed again, the query would perform much better. In this case too the second call would be more optimized than the first.
 
 So here is a fairly simple pre-fetching surmise:
 

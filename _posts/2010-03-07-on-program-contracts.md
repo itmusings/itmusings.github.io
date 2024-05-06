@@ -18,8 +18,7 @@ tags:
   - interface-based-design
 ---
 
-
-![](/images/2010/03/interface_modules1-300x198.png)Contrary to possible expectation, this post is not about signing contracts between companies. It is the contracts that must exist between the various modules within an application. Any application would have a lot of classes that implement various parts of its functionality. 
+Contrary to possible expectation, this post is not about signing contracts between companies. It is the contracts that must exist between the various modules within an application. Any application would have a lot of classes that implement various parts of its functionality.
 
 The interface based design principle stipulates that implementations must be fronted by an interface. This would facilitate a loose coupling between an implementation class and its consumer.
 

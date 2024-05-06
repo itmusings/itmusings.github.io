@@ -75,7 +75,7 @@ A profiler call tree gives the time taken at each layer as the request gets proc
 
 ### Thread Dumps
 
-As we stress test the application, there are certain points in time at which it would slow down and sometimes grind to a halt. At that twilight hour when the application is putting on the brakes, it is an appropriate time to take a thread dump. That can be easily achieved using [several ways](http://java.sun.com/developer/technicalArticles/Programming/Stacktrace/) \- kill -3 being the most popular one.  An inspection of thread dumps provides an invaluable tool to analyze the application. An application slows down due to a variety of reasons:
+As we stress test the application, there are certain points in time at which it would slow down and sometimes grind to a halt. At that twilight hour when the application is putting on the brakes, it is an appropriate time to take a thread dump. That can be easily achieved using [several ways](http://java.sun.com/developer/technicalArticles/Programming/Stacktrace/) \- kill -3 being the most popular one. An inspection of thread dumps provides an invaluable tool to analyze the application. An application slows down due to a variety of reasons:
 
   * The application has attained the limit of scalability in the environment. This happens when the CPU or memory are maxed out.
   * There can be locks and waits that can impede scalability.

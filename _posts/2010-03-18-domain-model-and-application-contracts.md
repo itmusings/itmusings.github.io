@@ -20,7 +20,7 @@ tags:
 ---
 
 
-We had spoken [before](<? echo get_permalink\(435\); ?>) about the application contracts. As we define components, it is imperative that we spend sometime in designing the interfaces that they expose. Let us go back to the diagram that we used when we designed components.
+We had spoken [before](/on-program-contracts/) about the application contracts. As we define components, it is imperative that we spend sometime in designing the interfaces that they expose. Let us go back to the diagram that we used when we designed components.
 
   
 [ ](/images/2010/03/interface_modules1.png)
