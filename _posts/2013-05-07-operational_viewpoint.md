@@ -10,7 +10,7 @@ post_name: operational_viewpoint
 status: publish
 layout: post
 image: /images/2013/05/Ops.jpg
-home_page: true
+home_page: false
 category: architecture
 tags:
   - operations

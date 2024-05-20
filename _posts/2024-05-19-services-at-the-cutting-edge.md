@@ -2,7 +2,7 @@
 title: Services at the cutting edge
 author: raja
 description: How do we engineer a service to work at the edge
-date: 2024-05-20 08:00:00
+date: 2024-05-19 08:00:00
 layout: post
 image: /images/building-edge.jpeg
 category: architecture
