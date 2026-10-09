@@ -7,6 +7,7 @@ layout: post
 image: /images/building-edge.jpeg
 category: architecture
 home_page: true
+featured: true
 tags:
   - spring boot
   - chenile

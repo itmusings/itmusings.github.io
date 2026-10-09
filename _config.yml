@@ -11,6 +11,8 @@ tags:
   - java
 show_hero: true
 menu:
+  - title: Vibe Coder
+    url: https://vibecoder.itmusings.com
   - title: Agility
     url: /category/agility
   - title: Architecture
@@ -42,6 +44,7 @@ formspree_form_id: formspree_form_id
 github_username: rajakolluru
 facebook_username: raja.s.kolluru
 instagram_username: raja.kolluru.123
+linkedin_username: rajakolluru
 medium_username: 
 
 
@@ -54,8 +57,8 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "https://itmusings.com" # the base hostname & protocol for your site
+google_analytics: "" # set your GA4 measurement id (G-XXXXXXXXXX) to enable
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
